@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grace McGlashan | Portfolio</title>
+  <meta name="description" content="Portfolio of Grace McGlashan, Psychology major at Tulane University with minors in SLAM and Design." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container navbar__inner">
+      <a href="#top" class="navbar__brand">Grace McGlashan</a>
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="navbar__menu" id="navMenu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="top" class="hero">
+      <div class="container hero__inner">
+        <p class="hero__eyebrow">Hi, I'm</p>
+        <h1 class="hero__name">Grace McGlashan</h1>
+        <p class="hero__tagline">Psychology major at Tulane University, minoring in SLAM &amp; Design.</p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">View My Work</a>
+          <a href="#contact" class="btn btn--secondary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section__title">About Me</h2>
+        <div class="about__content">
+          <div class="about__avatar" aria-hidden="true">GM</div>
+          <p class="about__text">
+            I'm a Psychology major at Tulane University with minors in SLAM and Design.
+            I'm passionate about understanding how people think, feel, and interact with
+            the world around them, and I love bringing that perspective into thoughtful,
+            human-centered design work. This portfolio is a work in progress &mdash; check
+            back soon as I add projects, experience, and more about what I'm working on.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Skills &amp; Interests</h2>
+        <ul class="skills__grid">
+          <li class="skill-card">
+            <h3>Research &amp; Analysis</h3>
+            <p>Applying psychological research methods to understand behavior and user needs.</p>
+          </li>
+          <li class="skill-card">
+            <h3>Design</h3>
+            <p>Exploring visual and human-centered design principles.</p>
+          </li>
+          <li class="skill-card">
+            <h3>Communication</h3>
+            <p>Translating ideas clearly across writing, presentations, and collaboration.</p>
+          </li>
+          <li class="skill-card">
+            <h3>Problem Solving</h3>
+            <p>Approaching challenges with curiosity and an evidence-based mindset.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section__title">Projects</h2>
+        <p class="section__subtitle">A few things I've worked on &mdash; more coming soon.</p>
+        <div class="projects__grid">
+          <article class="project-card">
+            <div class="project-card__media" aria-hidden="true">01</div>
+            <div class="project-card__body">
+              <h3>Project Title One</h3>
+              <p>A short description of this project goes here. Swap in your own work and links.</p>
+              <a href="#" class="project-card__link">View Project &rarr;</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card__media" aria-hidden="true">02</div>
+            <div class="project-card__body">
+              <h3>Project Title Two</h3>
+              <p>A short description of this project goes here. Swap in your own work and links.</p>
+              <a href="#" class="project-card__link">View Project &rarr;</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card__media" aria-hidden="true">03</div>
+            <div class="project-card__body">
+              <h3>Project Title Three</h3>
+              <p>A short description of this project goes here. Swap in your own work and links.</p>
+              <a href="#" class="project-card__link">View Project &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section--alt">
+      <div class="container contact">
+        <h2 class="section__title">Get In Touch</h2>
+        <p class="section__subtitle">Want to connect? Reach out below.</p>
+        <div class="contact__links">
+          <a href="mailto:hello@example.com" class="btn btn--primary">Email Me</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" class="btn btn--secondary">LinkedIn</a>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="btn btn--secondary">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Grace McGlashan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
