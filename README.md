@@ -1,7 +1,5 @@
 # Grace-PersonalPortfolio
 
-_Last updated: 2026-09-22_
-
 ## About me
 I'm a Tulane University student with a background in marketing, public
 relations, interior design, and media production.
@@ -43,10 +41,3 @@ This site is static, so it can be deployed for free with GitHub Pages:
 2. Go to **Settings > Pages**.
 3. Under "Build and deployment", set the source to the `main` branch (root).
 4. Your site will be published at `https://<username>.github.io/<repo-name>/`.
-
-## Changelog
-- **2026-09-22** &mdash; Populated the site with real content from Grace's
-  resume: About, Experience timeline, Skills, Projects & Community
-  Involvement, and a downloadable resume in the Contact section.
-- **2026-09-17** &mdash; First version of the portfolio site: hero, About,
-  Skills, Projects, and Contact sections with placeholder content.
