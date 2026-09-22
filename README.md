@@ -1,17 +1,19 @@
 # Grace-PersonalPortfolio
 
 ## About me
-I'm a Psychology major at Tulane University with minors in SLAM and Design.
+I'm a Tulane University student with a background in marketing, public
+relations, interior design, and media production.
 
 ## About this site
 A personal portfolio website built with plain HTML, CSS, and JavaScript (no
-build step required). It includes:
+build step required), populated from my resume. It includes:
 
 - A hero section with intro and calls to action
-- An About section
+- An About section with education and study abroad details
+- An Experience timeline of internships and roles
 - A Skills section
-- A Projects section with placeholder project cards
-- A Contact section
+- A Projects & Community Involvement section
+- A Contact section with a downloadable resume (`assets/Grace_McGlashan_Resume.pdf`)
 
 ## Running locally
 Just open `index.html` in a browser, or serve the folder with any static
@@ -25,8 +27,9 @@ Then visit `http://localhost:8000`.
 
 ## Customizing
 - Update your bio in the About section of `index.html`.
-- Replace the placeholder project cards in the Projects section with your
-  own work, links, and descriptions.
+- Keep the Experience and Projects sections in sync with your resume as it
+  changes, and swap `assets/Grace_McGlashan_Resume.pdf` for an updated file
+  when needed (keep the same filename, or update the links in `index.html`).
 - Update the contact email and social links in the Contact section.
 - Colors and fonts are defined as CSS variables at the top of
   `css/style.css`.
