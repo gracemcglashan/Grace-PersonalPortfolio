@@ -3,8 +3,8 @@
   --color-bg-alt: #f7f5f2;
   --color-text: #221f26;
   --color-text-muted: #5a5560;
-  --color-primary: #6b4ee6;
-  --color-primary-dark: #5738c4;
+  --color-primary: #b3312c;
+  --color-primary-dark: #8f2622;
   --color-border: #e6e2dd;
   --font-heading: "Poppins", sans-serif;
   --font-body: "Inter", sans-serif;
@@ -352,7 +352,7 @@ ul {
 
 .project-card__media {
   height: 140px;
-  background: linear-gradient(135deg, var(--color-primary), #a78bfa);
+  background: linear-gradient(135deg, var(--color-primary), #d9756a);
   color: rgba(255, 255, 255, 0.85);
   display: flex;
   align-items: center;
